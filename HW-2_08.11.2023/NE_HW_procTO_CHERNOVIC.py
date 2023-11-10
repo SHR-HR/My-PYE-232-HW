@@ -23,20 +23,17 @@
 # ВАРИАНТ 2
 
 
-# Hello = 'Здравствуйте!'
+#Hello = 'Здравствуйте!'
 # My_name_is = 'Меня зовут'
-
+#
 # Last_name = 'Шаунин'
 # First_name = 'Роман'
 # Sur_name = 'Владимирович,'
-
+#
 # My_age = 'Мне более 9000 лет'
-
+#
 # Mee_need_work = 'и я хочу у Вас работать.'
-
-# Dialog_name = 'Возможно, вы скажите, что: Я слишком стар.'
-# Dialog_name2 = 'Я Вам отвечу, что: Я обладаю высочайшими компетенциями в галактике!'
-
+#
 # print(Hello, My_name_is, Last_name, First_name, Sur_name, My_age, Mee_need_work)
 
 
@@ -44,40 +41,23 @@
 
 # Hello = 'Здравствуйте!'
 # My_name_is = 'Меня зовут'
-
+#
 # Last_name = 'Шаунин'
 # First_name = 'Роман'
 # Sur_name = 'Владимирович'
-
+#
 # My_age = 'Мне более 9000 лет'
-
+#
 # I_need_work_in_your_company = 'и я хочу у Вас работать.'
-
+#
 # Dialog_name = 'Возможно, вы скажите, что: Я слишком стар.'
 # Dialog_name2 = 'Но, Я Вам отвечу, что: Я обладаю высочайшими компетенциями в галактике!'
-
+#
 # print("Здравствуйте! Меня зовут", Last_name, First_name, Sur_name, My_age,
 # "и я мечтаю у Вас работать.", Dialog_name, Dialog_name2)
 
-# string = "Здравствуйте! Меня зовут"
-# print(string)
 
-
-# ВАРИАНТ 4
-
-# Входные данные
-# Здравствуйте! Меня зовут Имя Фамилия Отчество. Мне Возраст и я хочу у Вас работать.
-
-# print('Приветствие', 'затем', 'ФИО', 'ВОЗРАСТ', 'и', 'что Вы хотите?')
-#
-# # Выходные данные
-# # Здравствуйте! Меня зовут Шаунин Роман Владимирович. Мне 18 лет и я хочу у Вас работать.
-#
-# name = input()
-# print(name)
-
-
-# ВАРИАНТ 5 (КАК ВАРИАНТ 1 (только чуть-чуть по другому))
+# ВАРИАНТ 4 (КАК ВАРИАНТ 1 (только чуть-чуть по другому))
 
 # hello = input('Приветствие!') # Здравствуйте! #str0
 # what_is_your_name = input('Как Вас зовут?') # Меня зовут #str1
@@ -88,47 +68,31 @@
 # my_age = f". Мне {age} лет и" #str5
 # work = input('Какова Ваша цель?') # я хочу у Вас работать. #str6
 
-# resume = hello + what_is_your_name + last_name + first_name + sur_name + my_age + work так или
+# resume = [hello + what_is_your_name + last_name + first_name + sur_name + my_age + work]  # так или
 # #str7 = str0 + # str1 + str2 + str3 + str4 + str5 + str6 # конкатенация строк (сложение строк)
+# print(resume)
 
 
 # ВАРИАНТ 5
-
-# hello = input('Приветствие!') # Здравствуйте! #str0
-# what_is_your_name = input('Как Вас зовут?') # Меня зовут #str1
-# last_name = input('Фамилия') # Шаунин #str2
-# first_name = input('Имя') # Роман #str3
-# sur_name = input('Отчество') # Владимирович #str4
-# age = 18
-# my_age = f". Мне {age} лет и" #str5
-# work = input('Какова Ваша цель?') # я хочу у Вас работать. #str6
-
-# resume = hello + what_is_your_name + last_name + first_name + sur_name + my_age + work так или
-# #str7 = str0 + # str1 + str2 + str3 + str4 + str5 + str6 # конкатенация строк (сложение строк)
-
-# # print(resume)
-
-
-# ВАРИАНТ 6
 
 # age = 18
 # list0 = 'Здравствуйте''!' ' ' 'Меня зовут'
 # list1 = ' ' 'Шаунин' ' ' 'Роман' ' ' 'Владимирович' '.'
 # list2 = ' ' 'Мне' ' ' f'{age} лет' ','
 # list3 = ' ' 'и' ' ' 'я бы очень' ' ' 'хотел' ' ' 'у Вас работать.'
-
-# ??? # tmp0 = list0[0][0][1][2][3]
-# ??? # tmp1 = list1[0][1][2][3][4][5][6]
-# ??? # tmp2 = list2[0][1][2][3][4]
-# ??? # tmp3 = list3[0][1][2][3][4][5][6][7]
-
+#
+#                     # ??? # tmp0 = list0[0][0][1][2][3]
+#                     # ??? # tmp1 = list1[0][1][2][3][4][5][6]
+#                     # ??? # tmp2 = list2[0][1][2][3][4]
+#                     # ??? # tmp3 = list3[0][1][2][3][4][5][6][7]
+#
 # tmp0 = list0
 # tmp1 = list1
 # tmp2 = list2
 # tmp3 = list3
-
+#
 # tmp4 = tmp0 + tmp1 + tmp2 + tmp3
-
+#
 # print(tmp4)
 
 
