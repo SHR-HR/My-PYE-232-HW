@@ -105,6 +105,12 @@ if str1 == str2:
 else:
     print(False)
 
+# Решение (Вариант №4):
+
+str1 = input("Введите 1 слово: ")
+str2 = input("Введите 2 слово: ")
+print(str1 == str2)
+
 
 # Задание №4.
 
@@ -187,3 +193,7 @@ print(number2.isalpha())  # строка состоит только из бук
 
 print(number3.isafloat())  # строка состоит только из цифр?
 # True
+
+
+
+
